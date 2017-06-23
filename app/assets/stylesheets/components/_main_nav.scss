@@ -1,5 +1,5 @@
 .main-nav {
-  margin-top: 5px;
+  padding: 5px 0;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid $light-gray;
@@ -14,31 +14,30 @@
   padding: 5px;
   margin: 10px;
   background: $lightest-gray;
+  text-transform: uppercase;
+
 }
 
 .right-nav > ul > li {
-  padding: 5px;
   margin: 5px;
-  border-radius: 2px;
-  background: $dark-blue;
-  color: white;
 }
 
 .right-nav > ul > li:last-of-type {
   color: black;
   background: $lightest-gray;
+  padding: 3px;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  background:  $light-gray;
+  background:  $lightest-gray;
 }
 
 .left-nav span {
-
+  margin-left: 10px;
 }
 
 
 .right-nav i {
-
+  font-size: 16px;
 }
